@@ -1,8 +1,8 @@
-#Google Chrome extension template
+# Google Chrome extension template
 
 This is a skeleton of empty Google Chrome extension with all basic files.
 
-##Installation example:
+## Installation example:
 ```
 git clone https://github.com/vvmspace/chrome-extension-template && cd chrome-extension-template && rm -rf ./.git && git init && git add -A && git commit -m "First commit"
 ```
