@@ -1,3 +1,5 @@
+const CB = new CrossB();
+
 class BG {
 
     constructor(){

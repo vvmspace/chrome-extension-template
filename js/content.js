@@ -1,3 +1,5 @@
+const CC = new CrossC();
+
 class CS{
 
     constructor(){
