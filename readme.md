@@ -9,6 +9,8 @@ git clone https://github.com/vvmspace/chrome-extension-template extensionname &&
 
 ## Calling background function from content script:
 
+You can use js/cross folder in your project.
+
 in your content.js:
 
 ```

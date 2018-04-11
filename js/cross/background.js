@@ -9,10 +9,13 @@ class CrossB{
         chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             if(request.action){
                 if (typeof this.acts[request.action] === 'function'){
-                    this.acts[request.action](request.data);
+                    sendResponse(this.acts[request.action](request.data));
+                }else{
+                    sendResponse();
                 }
+            }else{
+                sendResponse();
             }
-            sendResponse(request);
         });
     }
 
