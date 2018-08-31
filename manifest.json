@@ -10,6 +10,9 @@
   },
   "background": {
     "scripts": [
+
+      "js/modules/rgb.js",
+
       "js/jquery.min.js",
       "js/background.js"
     ]
