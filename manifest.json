@@ -10,14 +10,13 @@
   },
   "background": {
     "scripts": [
-      "js/cross/background.js",
       "js/jquery.min.js",
       "js/background.js"
     ]
   },
   "content_scripts": [
     {
-      "js": ["js/cross/content.js", "js/jquery.min.js", "js/content.js"],
+      "js": ["js/jquery.min.js", "js/content.js"],
       "matches": ["*://*/*"],
       "run_at": "document_start"
     }
