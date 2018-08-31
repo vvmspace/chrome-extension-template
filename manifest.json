@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "0.0.7",
+  "version": "0.7.7",
   "name": "Chrome extension template",
   "description": "Chrome extension template",
   "browser_action": {
