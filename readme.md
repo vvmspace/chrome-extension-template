@@ -9,4 +9,4 @@ git clone https://github.com/vvmspace/chrome-extension-template extensionname &&
 
 ## Google Chrome extension examples you can find in branches under rc
 
-Or just fork me on github.
+Or just fork me on github: https://github.com/vvmspace/chrome-extension-template
